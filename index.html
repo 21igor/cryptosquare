@@ -33,13 +33,18 @@
       <header>
         <h1>Epicodus Project Template</h1>
       </header>
-      <h2>Hello World!</h2>
-      <p>
-        This is a nice little index file.  It calls in five different files to support Bootstrap, JQuery, and your custom css and js.
-      </p>
-      <footer>
-        <p>&copy; 2016 Epicodus Pair Project, Inc.</p>
-      </footer>
+      <form id="crypto">
+         <div class="form-group">
+           <label for="original-text">Enter a decimal number to translate into roman numerals:</label>
+           <input id="original-text" type="text">
+         </div>
+
+         <button type="submit" class="btn">Translate!</button>
+       </form>
+
+       <div id="result">
+
+       </div>
     </div> <!-- end container -->
   </body>
 </html>
